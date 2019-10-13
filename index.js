@@ -18,9 +18,9 @@
  * multiplyWithThree({ n1: 1, n2: 1 }); // 6 .. expression evaluated is (1 + 1) * 3
  *
  * @param {Function} fn
- * @param {object} [options]
- * @param {object} [options.ctx={}] a context to bind the partial functions are bound to
  *
  * @returns {Function}
  */
-const toPartialBuilder = (fn, { ctx } = {}) => (partialKeys = {}) => args => fn({ ...partialKeys, ...args });
+const toPartialBuilder = (fn) => (partialKeys = {}) => (args) => fn({ ...partialKeys, ...args });
+
+module.exports = { toPartialBuilder };
