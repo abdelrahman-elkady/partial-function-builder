@@ -1,5 +1,5 @@
 {
-  "name": "partial-builder",
+  "name": "@abdelrahman-elkady/partial-function-builder",
   "version": "1.0.0",
   "description": "A helper function to build partially applied functions",
   "main": "index.js",
