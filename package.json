@@ -4,7 +4,8 @@
   "description": "A helper function to build partially applied functions",
   "main": "index.js",
   "scripts": {
-
+    "test": "jest",
+    "test:watch": "jest --watch"
   },
   "keywords": [
     "function",
@@ -17,8 +18,11 @@
   "license": "ISC",
   "devDependencies": {
     "@abdelrahman-elkady/eslint-config": "^0.1.10",
+    "@types/jest": "^24.0.18",
     "eslint": "^6.1.0",
     "eslint-config-airbnb-base": "^14.0.0",
-    "eslint-plugin-import": "^2.18.2"
+    "eslint-plugin-import": "^2.18.2",
+    "jest": "^24.9.0",
+    "jest-extended": "^0.11.2"
   }
 }
