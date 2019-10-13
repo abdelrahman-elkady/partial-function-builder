@@ -1,13 +1,19 @@
 {
-  "name": "libs",
+  "name": "partial-builder",
   "version": "1.0.0",
-  "description": "",
-  "main": "builder.js",
+  "description": "A helper function to build partially applied functions",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "function",
+    "builder",
+    "partial",
+    "helper",
+    "composition"
+  ],
+  "author": "Abdelrahman Elkady <elkadyabdelrahman@gmail.com> (https://abdelrahman-elkady.tech)",
   "license": "ISC",
   "devDependencies": {
     "@abdelrahman-elkady/eslint-config": "^0.1.10",
