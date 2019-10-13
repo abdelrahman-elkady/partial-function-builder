@@ -12,7 +12,7 @@
  * arguments, you can check [lodash's `partial`](https://lodash.com/docs/4.17.15#partial)
  *
  * @example
- * const addAndMultiply = ({ n1, n2, n3 }) => { return (n1 + n2) * n3 };
+ * const addAndMultiply = ({ n1, n2, n3 }) => (n1 + n2) * n3;
  * const addPartialBuilder = toPartialBuilder(addAndMultiply);
  * const multiplyWithThree = addPartialBuilder({ n3: 3 });
  * multiplyWithThree({ n1: 1, n2: 1 }); // 6 .. expression evaluated is (1 + 1) * 3
